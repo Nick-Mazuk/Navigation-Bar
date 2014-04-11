@@ -43,7 +43,28 @@ nav ul li a {
 	text-decoration: none;
 }
 
+nav ul ul {
+	background: #5f6975;
+	border-radius: 0px;
+	padding: 0;
+	position:absolute;
+	top:100%;
+}
 
+nav ul ul li {
+	float:none;
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
 
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}
+
+nav ul ul li a:hover {
+	background: #4b545f;
+}
 
 
