@@ -68,7 +68,11 @@ nav ul ul li a:hover {
 }
 
 nav ul ul ul {
-	position: absolute;
+	position: relative;
 	left: 100%;
 	top:0;
 }
+
+nav ul ul li:hover ul {
+	display:block;
+]
